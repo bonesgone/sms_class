@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tima/junior_year/sms_class/catkin_ws/devel/include/**",
+        "/home/tima/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/tima/junior_year/sms_class/catkin_ws/src/project_ws4/include/**",
+        "/home/tima/catkin_ws/src/ros_tutorials_service/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
