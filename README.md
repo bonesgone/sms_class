@@ -25,12 +25,12 @@
 ~/catkin_ws/src/ gedit CMakeLists.txt package.xml
 ```
 
-*Lastly, build your package inside the root of the workspace.
+* Lastly, build your package inside the root of the workspace.
 ```
 ~/catkin_ws$ catkin_make
 ```
 
-###Output
+### Output
 ![image](https://user-images.githubusercontent.com/64888324/227823308-c407774b-15f0-42e3-a980-8060ad592e55.png)
 ![image](https://user-images.githubusercontent.com/64888324/227823826-bafaded9-ab3e-40ca-894b-0e956c6c7893.png)
 ![image](https://user-images.githubusercontent.com/64888324/227823525-99ecbc78-7797-4413-ae4d-234cc243a664.png)
