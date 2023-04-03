@@ -1,14 +1,19 @@
-* Create a workspace folder for various projects' workspaces.
+* Clone a git repository inside the src folder of your workspace folder.
 ```
-mkdir catkin_ws
-```
-
-* Inside the folder, create src folder for projects' source code.
-```
-cd catkin_ws && mkdir src
+git clone https://github.com/online-courses-materials/sms-project5.git
 ```
 
-* To build the workspace, run this command to generate executables, libraries, and interfaces.
+* Inside the root of workspace folder, build the project once for early build.
+```
+~/catkin_ws$ catkin_make
+```
+
+* Change your .cpp files into .py files with rospy functions(any IDE)
+```
+~/catkin_ws$/src gedit rpm_pub.cpp speed_calc.cpp odd_even_service_client.cpp odd_even_service_server.cpp 
+```
+
+* Save your modified files with .py extension. After that, rebuild the project inside the root of the workspace folder.
 ```
 ~/catkin_ws$ catkin_make
 ```
@@ -18,12 +23,8 @@ cd catkin_ws && mkdir src
 ~/catkin_ws$ source devel/setup.bash
 ```
 
-* Inside the src folder, create a project folder with a source folder.
+* Run the nodes and check the result.
 ```
-~/catkin_ws/src$ mkdir projectw3 && cd projectw3 && mkdir src
+~/catkin_ws$ rosrun project5 rpm_pub.py
 ```
 
-* Inside the catkin_ws, or base folder of all workspaces, build the package again for the project configuration as well.
-```
-~/catkin_ws$ catkin_make
-```
