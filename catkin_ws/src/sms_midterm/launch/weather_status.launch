@@ -1,0 +1,4 @@
+<launch>    
+  <node pkg="sms_midterm" type="weather_service_server_node" name="weather_server" output="screen" />
+  <node pkg="sms_midterm" type="weather_service_client_node" name="weather_client" output="screen" />
+</launch>

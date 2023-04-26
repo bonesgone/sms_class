@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="sms_midterm" type="speed_publisher.py" name="speed_publisher"/>
+  <node pkg="sms_midterm" type="plate_subscriber.py" name="plate_subscriber"/>
+  <param name="speed_limit" value="80"/>
+</launch>
