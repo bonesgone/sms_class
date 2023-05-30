@@ -1,30 +1,3 @@
-* Clone a git repository inside the src folder of your workspace folder.
-```
-git clone https://github.com/online-courses-materials/sms-project5.git
-```
-
-* Inside the root of workspace folder, build the project once for early build.
-```
-~/catkin_ws$ catkin_make
-```
-
-* Change your .cpp files into .py files with rospy functions(any IDE)
-```
-~/catkin_ws$/src gedit rpm_pub.cpp speed_calc.cpp odd_even_service_client.cpp odd_even_service_server.cpp 
-```
-
-* Save your modified files with .py extension. After that, rebuild the project inside the root of the workspace folder.
-```
-~/catkin_ws$ catkin_make
-```
-
-* Update your environment whenever you build a new package. It adds several environment variables that ROS needs in order to work. Run this command in every new terminal tab.
-```
-~/catkin_ws$ source devel/setup.bash
-```
-
-* Run the nodes and check the result.
-```
-~/catkin_ws$ rosrun project5 rpm_pub.py
-```
-
+![image](https://github.com/bonesgone/sms_class/assets/64888324/a27102b1-f2ee-4b5a-bd67-fc7ec4acb390)
+![image](https://github.com/bonesgone/sms_class/assets/64888324/485ce5c3-de21-42e7-a072-43b49dd8ee68)
+![image](https://github.com/bonesgone/sms_class/assets/64888324/cf49d5ad-15fc-43fc-8632-1d36382d3e36)
